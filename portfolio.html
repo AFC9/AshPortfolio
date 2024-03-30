@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,9 +19,8 @@
             <div class="rightside">
                 <ul>
                     <li><a href="#second">About Me</a></li>
-                    <li><a href="#first">Home</a></li>
-                    <li><a href="/">Contact</a></li>
                     <li><a href="#thirdsection">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,10 +32,11 @@
                 <h3>
                     Hi, My name is <span class="purple">Ashish</span>
                 </h3><br>
-                <div>&</div><br><div>I'm a</div>
+                <div>&</div><br>
+                <div>I'm a</div>
                 <span id="element"></span>
-                <div class="buttons"><button class="btn">Download Resume</button>
-
+                <div class="buttons" id="button2">
+                    <button class="btn" id="btn2">Download Resume</button>
                 </div>
             </div>
             <div class="rightsection"><img src="1.png" alt=""></div>
@@ -72,41 +73,75 @@
                 <div class="vertical">
                     <img class="img-top" src="man.png" alt="">
                     <div class="vertical-title">Pulse Monitor</div>
-                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam laborum similique tempore atque nihil. Assumenda, animi odio!</div>
+                    <div class="vertical-desc">To check the pulse of a patient on a regular basis, the project is made
+                        using semiconductors, pulse sensors and arduino. Patient checkup is made easy with this
+                        monitoring machine, especially for those with heart issues.</div>
                 </div>
                 <div class="vertical">
                     <img class="img-top" src="man.png" alt="">
                     <div class="vertical-title">Obstacle Acoiding Robot</div>
-                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam laborum similique tempore atque nihil. Assumenda, animi odio!</div>
+                    <div class="vertical-desc">Obstacle avoiding robot is made using semiconductors, arduino, gyroscope,
+                        obstacle sensors, batteries and mounting supplies. It is essential for avoiding accidents on
+                        roads. The Procimity sensors are the heart of the project.</div>
                 </div>
                 <div class="vertical">
                     <img class="img-top" src="man.png" alt="">
                     <div class="vertical-title">Wireless Blackbox</div>
-                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam laborum similique tempore atque nihil. Assumenda, animi odio!</div>
+                    <div class="vertical-desc">Wireless blackbox for cars is a final year project,it's made keeping in
+                        mind the history that needs to be investigated in case of an accident. Gyroscope, Alcohol
+                        sensor, temperature sensor, gsm module, arduino have been used in this project.</div>
                 </div>
                 <div class="vertical">
                     <img class="img-top" src="man.png" alt="">
                     <div class="vertical-title">Hotel Booking System</div>
-                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam laborum similique tempore atque nihil. Assumenda, animi odio!</div>
+                    <div class="vertical-desc">Hotel Booking System is a SQL based project made for IT vedant. It's an
+                        essential part of the learning curve, hotel database is one of the most important and sought
+                        after fields in IT. It require immense accuracy and ability to hold large chunks of data on a
+                        daily basis.</div>
                 </div>
                 <div class="vertical">
                     <img class="img-top" src="man.png" alt="">
                     <div class="vertical-title">Portfolio Web Designing</div>
-                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam laborum similique tempore atque nihil. Assumenda, animi odio!</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde
+                        molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam
+                        laborum similique tempore atque nihil. Assumenda, animi odio!</div>
                 </div>
                 <div class="vertical">
                     <img class="img-top" src="man.png" alt="">
                     <div class="vertical-title">App Build</div>
-                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam laborum similique tempore atque nihil. Assumenda, animi odio!</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde
+                        molestiae odit architecto quidem? Asperiores quasi, porro quos labore maxime placeat laboriosam
+                        laborum similique tempore atque nihil. Assumenda, animi odio!</div>
                 </div>
             </div>
         </section>
+        <hr>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <div class="email">
+                            <p><img src="mail.png" alt="mail">ashishmane245@gmail.com</p>
+                            <p><img src="whats.png" alt="whatsapp">4377845388</p>
+                        </div>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/"><img src="fb.png" alt="fb"></a>
+                            <a href="https://twitter.com/i/flow/login"><img src="x.png" alt="x"></a>
+                            <a href="https://www.instagram.com/"><img src="insta.png" alt="insta"></a>
+                            <a href="https://www.linkedin.com/home"><img src="linkedin.png" alt="linked"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
         <div class="footer">
-            <div class="footer1"><h3>Ashish's Portfolio</h3></div>
-            <div class="footer2"><ul><li>Home</li></ul><ul><li>About</li></ul><ul><li>Contact</li></ul></div>
+            <div class="footer1">
+                <h3>Ashish's Portfolio</h3>
+            </div>
         </div>
         <div class="rights">www.ashishportfolio.com | All rights reserved</div>
     </footer>
